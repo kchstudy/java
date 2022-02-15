@@ -14,39 +14,48 @@ public class For2 {
         }
         // i가 1회 반복할 때 j는 5회 반복
 
-/*
-i가 0일때 j는 0
-i가 0일때 j는 1
-i가 0일때 j는 2
-i가 0일때 j는 3
-i가 0일때 j는 4
-i가 1일때 j는 0
-i가 1일때 j는 1
-i가 1일때 j는 2
-i가 1일때 j는 3
-i가 1일때 j는 4
-i가 2일때 j는 0
-i가 2일때 j는 1
-i가 2일때 j는 2
-i가 2일때 j는 3
-i가 2일때 j는 4
-i가 3일때 j는 0
-i가 3일때 j는 1
-i가 3일때 j는 2
-i가 3일때 j는 3
-i가 3일때 j는 4
-i가 4일때 j는 0
-i가 4일때 j는 1
-i가 4일때 j는 2
-i가 4일때 j는 3
-i가 4일때 j는 4
- */
         // 별찍기
+        System.out.println( "별찍기" );
         for ( int i = 0 ; i < 5 ; i++ ) {
             for ( int j = 0 ; j < 5 ; j++ ) {
                 System.out.print( "*" );
             }
             System.out.println("");
         }
+
+        System.out.println( "별찍기2" );
+        for ( int i = 0 ; i < 5 ; i++ ) {
+            for ( int j = 0 ; j < 5 ; j++ ) {
+                if ( i >= j ) {
+                    System.out.print( "*" );
+                } else {
+                    System.out.print( " " );
+                }
+            }
+            System.out.println("");
+        }
+
+        System.out.println( "별찍기3" );
+        for ( int i = 0 ; i < 5 ; i++ ) {
+            for ( int j = 0 ; j < 5 ; j++ ) {
+                if ( j >= i ) {
+                    System.out.print( "*" );
+                }
+            }
+            System.out.println("");
+        }
+
+        System.out.println( "별찍기4" );
+        for ( int i = 0 ; i < 5 ; i++ ) {
+            for ( int j = 0 ; j < 5 ; j++ ) {
+                if ( j >= i ) {
+                    System.out.print( "*" );
+                } else {
+                    System.out.print( " " );
+                }
+            }
+            System.out.println("");
+        }
+
     }
 }
