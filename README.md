@@ -34,7 +34,6 @@ boolean bf = false;
 #### 기본 for 문
 
 ```
-
 for ( int i = 0 ; i < 5 ; i++ ) {
     System.out.println( "반복돼요!" );
 }
@@ -113,3 +112,16 @@ String str = ( 3 > 5 ) ? "TRUE" : "FALSE"
 String str = ( 3 > 2 ) ? "TRUE" : "FALSE" ;
 // 3이 2보다 크면 "TRUE", 아니면 "FALSE" => "TRUE"
 ```
+
+## 조건문(if)
+
+```
+if ( 조건1 ) {
+  // 조건1이 참일 경우
+} else if ( 조건2 ) {
+  // 조건1이 참이 아니고 조건2가 참일 경우
+} else {
+  // 조건1이 참이 아니고 조건2도 참이 아닐 경우
+}
+```
+

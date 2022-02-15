@@ -12,5 +12,18 @@ public class If {
         } else {
             System.out.println( "if조건이 참이 아니고 else if조건이 참이 아니면" );
         }
+
+        int i = 0;
+        if ( i != 0 ) {
+            System.out.println( "i != 0" );
+        } else if ( i == 0 ) {
+            System.out.println( "i == 0" );
+        } else if ( i > 0 ) {
+            System.out.println( "i > 0" );
+        } else if ( i > -1 ) {
+            System.out.println( "i > -1" );
+        } else {
+            System.out.println( "else" );
+        }
     }
 }
