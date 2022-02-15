@@ -52,3 +52,15 @@ for ( int i = 0 ; i < 5 ; i++ ) {
 
 * for 문 ()안 마지막에 있는 i++, i-- 가 무엇인지 알 수 있다.
 
+1. 산술 연산자(arithmetic operator)
+2. 대입 연산자(assignment operator)
+3. 증감 연산자(increment and decrement operators)
+4. 비교 연산자(comparison operator)
+5. 논리 연산자(logical operator)
+6. 비트 연산자(bitwise operator)
+7. 삼항 연산자(ternary operator)
+8. instanceof 연산자
+
+```
+
+```
