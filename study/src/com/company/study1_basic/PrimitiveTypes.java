@@ -1,4 +1,4 @@
-package com.company;
+package com.company.study1_basic;
 
 public class PrimitiveTypes {
 
