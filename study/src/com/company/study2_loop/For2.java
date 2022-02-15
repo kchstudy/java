@@ -41,6 +41,12 @@ i가 4일때 j는 2
 i가 4일때 j는 3
 i가 4일때 j는 4
  */
-
+        // 별찍기
+        for ( int i = 0 ; i < 5 ; i++ ) {
+            for ( int j = 0 ; j < 5 ; j++ ) {
+                System.out.print( "*" );
+            }
+            System.out.println("");
+        }
     }
 }
