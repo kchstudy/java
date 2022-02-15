@@ -105,14 +105,11 @@ i-- : 후감소
 || : (or 또는) 앞 뒤 조건 모두 둘 중 하나만 true 이면 아니면 false : 앞 조건이 true 인 경우 뒤 조건을 실행하지 않고 true 반환
 ```
 
-### 비트 연산자(bitwise operator)
-```
-```
-
 ### 삼항 연산자(ternary operator)
 ```
-```
-
-### instanceof 연산자
-```
+(조건) ? 참(true)일때:거짓(false)일때;
+String str = ( 3 > 5 ) ? "TRUE" : "FALSE"
+// 3이 5보다 크면 "TRUE", 아니면 "FALSE" => "FALSE"
+String str = ( 3 > 2 ) ? "TRUE" : "FALSE" ;
+// 3이 2보다 크면 "TRUE", 아니면 "FALSE" => "TRUE"
 ```
