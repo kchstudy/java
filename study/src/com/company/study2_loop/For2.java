@@ -3,7 +3,7 @@ package com.company.study2_loop;
 public class For2 {
 
     public static void main(String[] args) {
-
+// study3_if 를 먼저 하고 오세요
 //        중첩 for문
         for ( int i = 0 ; i < 5 ; i++ ) {
             // 여기가 반복
