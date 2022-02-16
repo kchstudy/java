@@ -57,5 +57,19 @@ public class For2 {
             System.out.println("");
         }
 
+        System.out.println( "별찍기5" );
+        for ( int i = 0 ; i < 3 ; i++ ) {
+            for ( int j = 0 ; j < 5 ; j++ ) {
+                if ( Math.abs(i - j) == 2 ) {
+                    System.out.print( "*" );
+                } else if ( i > 0 && Math.abs(i - j) == 0 ) {
+                    System.out.print( "*" );
+                } else {
+                    System.out.print( " " );
+                }
+            }
+            System.out.println("");
+        }
+
     }
 }
