@@ -14,6 +14,8 @@ public class For3 {
         list.add("listC");
         list.add("listD");
         list.add("listE");
+
+        // 확장 for
         for ( String str : list ) {
             System.out.println(str);
         }
