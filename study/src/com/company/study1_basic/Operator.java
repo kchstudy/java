@@ -29,6 +29,8 @@ public class Operator {
         System.out.println( "val : "+ val ); // 0
 
         // 증감 연산자(increment and decrement operators)
+        // 과제1. ++prePlus, afterPlus++ 차이 알아보기
+        // 과제2. --preMinus, afterMinus-- 차이 알아보기
         int prePlus = 0;
         System.out.println( "prePlus : "+ prePlus ); // 0
         System.out.println( "++prePlus : "+ ++prePlus ); // 1
@@ -58,6 +60,8 @@ public class Operator {
         System.out.println( "3 != 5 : "+ (3!=5) ); // true
         
         // 논리 연산자(logical operator)
+        // 과제1. &, && 차이 알아보기
+        // 과제2. |, || 차이 알아보기
         System.out.println( "[false&true   : "+ (getBoolean("false&true"  , false) &  getBoolean("false&true"  , true )) + "]" ); // false
         System.out.println( "[false&false  : "+ (getBoolean("false&false" , false) &  getBoolean("false&false" , false)) + "]" ); // false
         System.out.println( "[true&false   : "+ (getBoolean("true&false"  , true ) &  getBoolean("true&false"  , false)) + "]" ); // false
